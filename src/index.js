@@ -2,6 +2,8 @@ import navBar from "./styles/navbar";
 
 import "./styles/general.css";
 import "./styles/navbar.css";
+import "./styles/hero.css";
+import "./styles/about-me.css";
 
 const navbar = new navBar(document.querySelector(".nav-bar"));
 const navTrigger = document.querySelector(".nav-bar .container .menu-trigger");
