@@ -1,0 +1,41 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+  color: #ff6565;
+  cursor: help;
+}
+
+.tip {
+  font-size: 1.4rem;
+  visibility: hidden;
+  width: 100px;
+  background-color: #ff6565;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 0;
+  position: absolute;
+  left: 50%;
+  bottom: 120%;
+  margin-left: -50px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tip.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*adds a little triangle at the bottom of the tooltip message */
+.tip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -4px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: #ff6565;
+}

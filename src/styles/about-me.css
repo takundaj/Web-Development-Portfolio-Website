@@ -1,3 +1,23 @@
 .about-me .grid div p {
   margin: 2rem 0;
 }
+
+.about-me_image {
+  border: lightgrey solid 1rem;
+  border-radius: 15px;
+}
+
+.skills-bar {
+  width: 70%;
+  margin: auto;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  .skills-bar {
+    margin: 1rem;
+  }
+}
