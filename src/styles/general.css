@@ -43,6 +43,10 @@ p {
 
 /* headings */
 
+.heading {
+  text-align: center;
+}
+
 /* links */
 a {
   text-decoration: none;
