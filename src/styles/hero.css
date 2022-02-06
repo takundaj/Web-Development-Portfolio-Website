@@ -1,5 +1,18 @@
 .hero {
-  padding: 12vw 0;
+  padding: 8vw 0;
+  background: rgb(219, 219, 219);
+  background: linear-gradient(
+    90deg,
+    rgb(161, 161, 161) 0%,
+    rgba(128, 128, 128, 1) 100%,
+    rgba(158, 169, 171, 1) 100%
+  );
+  color: #fff;
+  min-height: 100vh;
+}
+
+.hero h1 {
+  font-size: 5vw;
 }
 
 .hero_content {
@@ -10,4 +23,21 @@
 .hero_content > p {
   margin: 2vw 0;
   margin: 1vw 9;
+}
+
+.hero_socials {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 3vw;
+}
+
+.hero_socials i {
+  margin: 2.85rem 1rem;
+}
+
+.hero .explore-btn {
+  background: #ff6565;
+  color: white;
+  margin: 0 0.5rem;
 }

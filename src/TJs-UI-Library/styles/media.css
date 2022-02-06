@@ -2,7 +2,24 @@
   margin: 2rem 0;
   padding: 2rem;
   border-radius: 10px;
-  background-color: lightgrey;
+  background: #4a4a4a;
+  color: #fff;
+  position: relative;
+}
+
+.media .paid-banner {
+  width: 8rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.media-img {
+  width: 10rem;
+}
+
+.media img {
+  width: 100%;
 }
 
 .media_text-content p {

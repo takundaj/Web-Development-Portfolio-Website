@@ -3,8 +3,13 @@
 }
 
 .about-me_image {
-  border: lightgrey solid 1rem;
-  border-radius: 15px;
+  overflow: hidden;
+}
+
+.about-me_image img {
+  max-width: 100%;
+  border-radius: 10px;
+  border: 2px solid white;
 }
 
 .skills-bar {

@@ -3,6 +3,7 @@
   display: inline-block;
   color: #ff6565;
   cursor: help;
+  width: min-content;
 }
 
 .tip {
@@ -17,9 +18,16 @@
   position: absolute;
   left: 50%;
   bottom: 120%;
-  margin-left: -50px;
   opacity: 0;
   transition: opacity 0.3s;
+}
+
+.about-me .tip {
+  margin-left: -50px;
+}
+
+.media .tip {
+  margin-left: -60px;
 }
 
 .tip.active {

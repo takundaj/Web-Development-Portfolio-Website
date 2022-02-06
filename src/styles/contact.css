@@ -6,21 +6,37 @@
   padding: 2rem;
 }
 
+.contact-grid {
+  background-color: gray;
+  border-radius: 10px;
+  padding: 0 2rem;
+  padding-top: 2vw;
+}
+
 fieldset {
   text-align: left;
   border: none;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 fieldset input[type="text"],
 input[type="email"] {
-  height: 2.5rem;
+  height: 3rem;
 }
 
 fieldset input[type="text"],
 input[type="email"],
 textarea {
   width: 100%;
+  margin-top: 1rem;
+  border-radius: 5px;
+  box-shadow: 0;
+  border: 0;
+  padding: 0 1rem;
+}
+
+fieldset textarea {
+  padding: 1rem;
 }
 
 .reviews {
@@ -28,17 +44,14 @@ textarea {
   padding: 2rem;
 }
 
-.reviews-container {
-}
-
 .review-item {
-  background-color: lightgray;
   display: grid;
   grid-template-columns: 20% 80%;
   grid-template-rows: fit-content fit-content;
   margin-bottom: 3rem;
   padding: 1.5rem;
   border-radius: 10px;
+  box-shadow: 0 0 0.25rem white;
 }
 
 .review-item:last-child {
@@ -55,7 +68,7 @@ textarea {
 .review-client-logo div {
   width: 6rem;
   height: 6rem;
-  background-color: grey;
+  background-color: white;
   border-radius: 50%;
 }
 

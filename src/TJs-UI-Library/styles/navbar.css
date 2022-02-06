@@ -1,8 +1,15 @@
 /* HEADER / NAVIGATION */
 
 header {
-  border: 1px solid blue;
   justify-content: space-between;
+  background: rgb(219, 219, 219);
+  background: linear-gradient(
+    90deg,
+    rgb(161, 161, 161) 0%,
+    rgba(128, 128, 128, 1) 100%,
+    rgba(158, 169, 171, 1) 100%
+  );
+  color: #fff;
 }
 
 header .container {
@@ -40,6 +47,7 @@ nav ul {
 .nav-bar .menu-content nav ul {
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
@@ -62,12 +70,23 @@ nav ul {
 }
 
 .menu-active {
-  color: aqua;
+  color: #ff6565;
+}
+
+nav button {
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
   .inline-nav {
     display: inline-block;
+  }
+
+  .inline-nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
   }
 
   .menu-trigger {

@@ -50,24 +50,25 @@ p {
 /* links */
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:hover {
-  color: rgb(17, 185, 185);
+  color: #ff6565;
 }
 
 /* Containers & Grids */
 section {
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
+  color: white;
 }
 
 section > .content {
-  width: 70%;
+  width: 80%;
   margin: auto;
   text-align: center;
   padding: 5vw 0;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
 }
 
 .grid {
@@ -81,7 +82,15 @@ section > .content {
   text-align: center;
 }
 
+.intro {
+  margin-bottom: 3vw;
+}
+
 @media screen and (min-width: 992px) {
+  section > .content {
+    width: 70%;
+  }
+
   .col2row1 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -98,4 +107,8 @@ button {
   cursor: pointer;
   margin: 2rem 0;
   box-shadow: 0 0 0.5rem grey;
+}
+
+button:hover {
+  background-color: #f34f29;
 }

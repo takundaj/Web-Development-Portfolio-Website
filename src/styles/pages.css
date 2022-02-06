@@ -1,0 +1,83 @@
+.about-me {
+  background: #4a4a4a;
+  color: #fff;
+}
+
+.about-me .content {
+  margin: auto;
+}
+
+.about-me .content .grid {
+  margin-right: 0;
+  grid-template-rows: min-content;
+}
+
+@media screen and (min-width: 992px) {
+  .about-me .content .grid {
+    margin-right: 0;
+    grid-template-columns: 1.5fr 2fr;
+  }
+}
+
+.projects {
+  background: rgb(219, 219, 219);
+  background: linear-gradient(
+    90deg,
+    rgb(161, 161, 161) 0%,
+    rgba(128, 128, 128, 1) 100%,
+    rgba(158, 169, 171, 1) 100%
+  );
+}
+
+.paid-banner {
+}
+
+.tooltip .webpack {
+  width: 2.5rem;
+  color: #4a4a4a;
+}
+
+.tooltip .babel {
+  width: 5rem;
+  color: #4a4a4a;
+  margin: 0 1rem;
+}
+
+.tooltip .html {
+  color: #e44d26;
+}
+
+.tooltip .css {
+  color: #264de4;
+}
+
+.tooltip .js {
+  color: #f0db4f;
+}
+
+.tooltip .wordpress {
+  color: #21759b;
+}
+
+.tooltip .sass {
+  color: #c69;
+}
+
+.tooltip .git {
+  color: #f34f29;
+}
+
+.contact-section {
+  background: #4a4a4a;
+  color: #fff;
+}
+
+/* footer */
+footer {
+  background: #272727;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw;
+}
