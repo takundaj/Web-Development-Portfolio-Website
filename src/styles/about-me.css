@@ -21,6 +21,14 @@
   align-items: center;
 }
 
+.skills-list {
+  margin: 1.5rem 0;
+}
+
+.skills-list li {
+  margin: 0 2rem;
+}
+
 @media screen and (min-width: 992px) {
   .skills-bar {
     margin: 1rem;
