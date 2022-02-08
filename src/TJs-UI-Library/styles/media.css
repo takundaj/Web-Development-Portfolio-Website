@@ -32,6 +32,11 @@
   font-size: 3rem;
 }
 
+.media-skills-bar img {
+  width: 5rem;
+  height: 2.5rem;
+}
+
 .media-skills-bar i {
   margin-right: 2rem;
 }

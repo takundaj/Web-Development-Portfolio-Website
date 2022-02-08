@@ -29,7 +29,20 @@
   );
 }
 
+.media_image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .paid-banner {
+}
+
+@media screen and (min-width: 992px) {
+  .media_image {
+    min-width: 100%;
+    text-align: center;
+  }
 }
 
 .tooltip .webpack {
