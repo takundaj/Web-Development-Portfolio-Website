@@ -35,6 +35,10 @@ p {
   text-align: center;
 }
 
+.hiding {
+  display: none !important;
+}
+
 @media screen and (min-width: 992px) {
   .text-align-left {
     text-align: left;
@@ -77,7 +81,7 @@ section > .content {
 
 .col2row1 {
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: fit-content 1fr;
   grid-gap: 2vw;
   text-align: center;
 }
@@ -111,4 +115,5 @@ button {
 
 button:hover {
   background-color: #f34f29;
+  color: white;
 }

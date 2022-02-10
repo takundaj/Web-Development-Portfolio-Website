@@ -45,6 +45,14 @@
   }
 }
 
+.technologies {
+  margin: auto;
+}
+
+.technologies p {
+  display: inline;
+}
+
 .tooltip .webpack {
   width: 2.5rem;
   color: #4a4a4a;
@@ -87,6 +95,23 @@
 .contact-section {
   background: #4a4a4a;
   color: #fff;
+}
+
+.google-maps p,
+.socials {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: clamp(4rem, 3vw, 6rem);
+}
+
+.socials i {
+  margin: 0rem 1rem;
 }
 
 /* footer */

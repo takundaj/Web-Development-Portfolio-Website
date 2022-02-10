@@ -8,7 +8,6 @@
     rgba(158, 169, 171, 1) 100%
   );
   color: #fff;
-  min-height: 100vh;
 }
 
 .hero h1 {
@@ -29,7 +28,7 @@
   display: flex;
   justify-content: center;
   color: white;
-  font-size: 3vw;
+  font-size: clamp(4rem, 3vw, 6rem);
 }
 
 .hero_socials i {
@@ -40,4 +39,10 @@
   background: #ff6565;
   color: white;
   margin: 0 0.5rem;
+}
+
+@media screen and (min-width) {
+  .hero {
+    min-height: 100vh;
+  }
 }
