@@ -111,6 +111,7 @@ button {
   cursor: pointer;
   margin: 2rem 0;
   box-shadow: 0 0 0.5rem grey;
+  font-size: 1.4rem;
 }
 
 button:hover {
