@@ -51,6 +51,7 @@
 
 .technologies p {
   display: inline;
+  margin: 1rem;
 }
 
 .tooltip .webpack {
