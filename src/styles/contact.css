@@ -20,6 +20,7 @@ fieldset {
 }
 
 fieldset input[type="text"],
+#name,
 input[type="email"] {
   height: 3rem;
 }
