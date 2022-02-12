@@ -15,8 +15,7 @@
 }
 
 .hero_content {
-  padding-left: 5vw;
-  padding-right: 5vw;
+  height: fit-content;
 }
 
 .hero_content > p {
@@ -44,5 +43,9 @@
 @media screen and (min-width) {
   .hero {
     min-height: 100vh;
+  }
+
+  .hero_content {
+    height: 65vh;
   }
 }
