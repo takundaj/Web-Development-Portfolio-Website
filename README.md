@@ -10,7 +10,7 @@ This is site that you are currently viewing. The purpose of this site is to allo
 
 <img src="/src/images/readmbanner.png" alt="MarineGEO circle logo" style="height: 400px; width:100%;"/>
 
-# Features
+## Features
 * About me
 * Portfolio porjects
 * Contact me
