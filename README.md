@@ -11,7 +11,9 @@ This is site that you are currently viewing. The purpose of this site is to allo
 <img src="/src/images/readmbanner.png" alt="MarineGEO circle logo" style="height: 400px; width:100%;"/>
 
 # Features
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
+* About me
+* Portfolio porjects
+* Contact me
+
+## Contirbutors
+Takunda J Nyamatore
