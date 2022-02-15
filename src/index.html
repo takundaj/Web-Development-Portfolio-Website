@@ -9,6 +9,45 @@
       src="https://kit.fontawesome.com/49dafdb3d2.js"
       crossorigin="anonymous"
     ></script>
+    <style>
+      body {
+        position: relative;
+      }
+
+      .load-page {
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        width: 100vw;
+        background: rgb(219, 219, 219);
+        background: linear-gradient(
+          90deg,
+          rgb(161, 161, 161) 0%,
+          rgba(128, 128, 128, 1) 100%,
+          rgba(158, 169, 171, 1) 100%
+        );
+        display: grid;
+        place-items: center;
+      }
+
+      .load-spinner {
+        font-size: 10rem;
+        color: #ff6565;
+        animation-name: spin;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- Nav bar header -->
@@ -733,6 +772,9 @@
         </div>
       </div>
     </footer>
+    <div class="load-page">
+      <i class="load-spinner fas fa-spinner"></i>
+    </div>
     <script src="/dist/assets/bundle.js"></script>
   </body>
 </html>

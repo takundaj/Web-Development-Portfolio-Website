@@ -15,6 +15,10 @@ import "./TJs-UI-Library/styles/tabs.css";
 import "./TJs-UI-Library/styles/tooltip.css";
 import "./TJs-UI-Library/styles/media.css";
 
+//Loading page
+const loadingPage = document.querySelector(".load-page");
+loadingPage.style.display = "none";
+
 const navbar = new navBar(document.querySelector(".nav-bar"));
 const navTrigger = document.querySelector(".nav-bar .container .menu-trigger");
 
