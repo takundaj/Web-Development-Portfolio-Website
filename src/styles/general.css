@@ -26,6 +26,7 @@ body {
   body {
     background-image: url(/src/images/hero-background-mobile.png);
     background-size: contain;
+    background-position: top;
     background-attachment: fixed;
   }
 }
