@@ -127,9 +127,6 @@
   justify-content: center;
 }
 
-.paid-banner {
-}
-
 @media screen and (min-width: 992px) {
   .media_image {
     min-width: 100%;
