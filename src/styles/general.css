@@ -26,7 +26,7 @@ body {
   body {
     background-image: url(/src/images/hero-background.png);
     background-position: top;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
   }
 }
