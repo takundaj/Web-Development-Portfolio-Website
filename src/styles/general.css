@@ -25,9 +25,6 @@ body {
 @media screen and (max-width: 500px) {
   body {
     background-image: url(/src/images/hero-background-mobile.png);
-    background-size: auto;
-    background-position: top;
-    background-attachment: fixed;
   }
 }
 
