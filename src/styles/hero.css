@@ -1,12 +1,12 @@
 .hero {
   padding: 8vw 0;
-  background: rgb(219, 219, 219);
+  /* background: rgb(219, 219, 219);
   background: linear-gradient(
     90deg,
     rgb(161, 161, 161) 0%,
     rgba(128, 128, 128, 1) 100%,
     rgba(158, 169, 171, 1) 100%
-  );
+  ); */
   color: #fff;
 }
 

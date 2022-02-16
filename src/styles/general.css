@@ -9,12 +9,17 @@
 /* Typography */
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
   font-size: 1.6rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: url(/src/images/hero-background.png);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h1,

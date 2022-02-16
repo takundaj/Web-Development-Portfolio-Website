@@ -1,5 +1,5 @@
 .about-me {
-  background: #4a4a4a;
+  background: #2e2e2e;
   color: #fff;
 }
 
@@ -20,13 +20,14 @@
 }
 
 .projects {
-  background: rgb(219, 219, 219);
+  /* background: rgb(219, 219, 219);
   background: linear-gradient(
     90deg,
     rgb(161, 161, 161) 0%,
     rgba(128, 128, 128, 1) 100%,
     rgba(158, 169, 171, 1) 100%
-  );
+  ); */
+  background: transparent;
 }
 
 .media_image {
@@ -94,7 +95,7 @@
 }
 
 .contact-section {
-  background: #4a4a4a;
+  background: #2e2e2e;
   color: #fff;
 }
 
@@ -117,7 +118,7 @@
 
 /* footer */
 footer {
-  background: #272727;
+  background: #1a1a1a;
   color: #fff;
   display: flex;
   justify-content: center;
