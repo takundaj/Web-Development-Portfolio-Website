@@ -6,9 +6,6 @@ import Tooltip from "./TJs-UI-Library/tooltip";
 
 // css imports
 import "./styles/general.css";
-import "./styles/hero.css";
-import "./styles/about-me.css";
-import "./styles/contact.css";
 import "./styles/pages.css";
 
 import "./TJs-UI-Library/styles/navbar.css";
