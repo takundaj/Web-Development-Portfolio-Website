@@ -1,8 +1,10 @@
+//  JS module imports
 import navBar from "./TJs-UI-Library/navbar";
 import Dropdown from "./TJs-UI-Library/dropdown";
 import Tabs from "./TJs-UI-Library/tabs";
 import Tooltip from "./TJs-UI-Library/tooltip";
 
+// css imports
 import "./styles/general.css";
 import "./styles/hero.css";
 import "./styles/about-me.css";
@@ -19,6 +21,7 @@ import "./TJs-UI-Library/styles/media.css";
 const loadingPage = document.querySelector(".load-page");
 loadingPage.style.display = "none";
 
+// Navigation  bar drop down
 const navbar = new navBar(document.querySelector(".nav-bar"));
 const navTrigger = document.querySelector(".nav-bar .container .menu-trigger");
 
@@ -32,7 +35,7 @@ window.addEventListener("resize", (e) => {
   }
 });
 
-//initialize dropdowns
+//initialize dropdown objects/components
 const dropdowns = document.querySelectorAll(".dropdown");
 
 dropdowns.forEach((instance) => {
@@ -40,12 +43,12 @@ dropdowns.forEach((instance) => {
   dropdown.init();
 });
 
-//create tabs
+//initialize tab objects/components
 const tabs = new Tabs(document.querySelector(".tabs"));
 
 tabs.init();
 
-//initialize tool tip
+//initialize tool tip objects/components
 const tooltips = document.querySelectorAll(".tooltip");
 
 tooltips.forEach((tooltip) => {
@@ -53,15 +56,14 @@ tooltips.forEach((tooltip) => {
   instance.init();
 });
 
-// contact form
-
-// Send us a message functionality
+// Contact Form: form to email functionality (FormSubmit)
 const contactForm = document.querySelector(".contact-me");
 const contactFormRepsonse = document.querySelector(".contact-form-response");
 
 contactForm.addEventListener("submit", (event) => {
   event.preventDefault();
-  // https://github.com/github/fetch
+
+  //Send inouts to formsubmit API
   fetch("https://formsubmit.co/ajax/tjnyamatore@gmail.com", {
     method: "POST",
     headers: {
@@ -75,6 +77,7 @@ contactForm.addEventListener("submit", (event) => {
     }),
   })
     .then((response) => {
+      //display success message
       response.json();
       if (response.ok) {
         contactFormRepsonse.style.display = "block";
@@ -82,6 +85,7 @@ contactForm.addEventListener("submit", (event) => {
         contactFormRepsonse.textContent =
           "Thank you, your message has been sent!";
       } else {
+        //display error message
         contactFormRepsonse.style.display = "block";
         contactFormRepsonse.style.color = "red";
         contactFormRepsonse.textContent =
