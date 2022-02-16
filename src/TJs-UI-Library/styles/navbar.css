@@ -60,6 +60,7 @@ nav ul {
   display: inline-block;
   cursor: pointer;
   font-size: 2rem;
+  color: white;
 }
 
 .menu-active {
