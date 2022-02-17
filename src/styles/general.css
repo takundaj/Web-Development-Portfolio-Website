@@ -18,7 +18,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-image: url(/src/images/hero-background-mobile.png);
   background-position: top;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
 }
 
