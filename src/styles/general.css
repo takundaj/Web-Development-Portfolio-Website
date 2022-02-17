@@ -18,14 +18,15 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-image: url(/src/images/hero-background-mobile.png);
   background-size: contain;
-  background-position: top;
+  background-position: 0;
   background-attachment: fixed;
 }
 
 @media screen and (min-width: 500px) {
   body {
     background-image: url(/src/images/hero-background.png);
-    background-size: contain;
+    background-size: cover;
+    background-position: 0;
     background-attachment: fixed;
   }
 }
