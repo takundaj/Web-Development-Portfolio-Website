@@ -14,6 +14,9 @@ import "./TJs-UI-Library/styles/tabs.css";
 import "./TJs-UI-Library/styles/tooltip.css";
 import "./TJs-UI-Library/styles/media.css";
 
+// animation.css library import
+import "animate.css";
+
 //Loading page
 const loadingPage = document.querySelector(".load-page");
 loadingPage.style.display = "none";
