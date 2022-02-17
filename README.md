@@ -8,7 +8,7 @@
 
 This is site that you are currently viewing. The purpose of this site is to allow people to find out a little more about me and to view any web developement projects that I've undergone.
 
-<img src="/src/images/readmbanner.png" alt="MarineGEO circle logo" style="height: 300px; width:80%;"/>
+<img src="/src/images/preview.png" alt="MarineGEO circle logo" style="height: 300px; width:50%;"/>
 
 ## Contirbutors
 Takunda J Nyamatore
