@@ -118,12 +118,12 @@
     rgba(128, 128, 128, 1) 100%,
     rgba(158, 169, 171, 1) 100%
   ); */
-  background: transparent;
+  background-color: #2e2e2e;
 }
 
 @media screen and (min-width: 768px) {
   .projects {
-    background-color: #2e2e2e;
+    background: transparent;
   }
 }
 
